@@ -15,6 +15,7 @@ A limited threading space in c++
   
   
   ~Example codes: (a.cpp)
+      
     #include "ALthread.h"
     using namespace std;
     ALthread efghijk;
