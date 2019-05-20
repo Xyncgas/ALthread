@@ -11,13 +11,22 @@ using std::chrono::system_clock;
 struct ALthread
 {
 
+	
+	
+	
+	
+	
+	private:
 	int abc;
-	int Index_of_threads = 0;
-	int thread_id[8192];
 	int Distributed_write_threshhold;
 	int thresh_lable_shadow;
 	int thresh_lable_shadowT;
 	int thread_checker = 0;
+	public:
+	int Index_of_threads = 0;
+	int thread_id[8192];
+	
+	
 
 	void initiate(int x)
 	{
