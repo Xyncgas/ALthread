@@ -43,7 +43,7 @@ A limited threading space in c++
     while (true)//normally without the libary it will spawn infinite threads to take a lots resources on the machine
     {
     
-    efghijk.booker();
+    start_abc.booker();
     
     abc[start_abc.Index_of_threads]=std::thread(hello_world);
     }
