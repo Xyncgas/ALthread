@@ -18,20 +18,26 @@ A limited threading space in c++
       
     #include "ALthread.h"
     using namespace std;
-    ALthread efghijk;
+   
     std:thread abc[8192];
+    
+    
+    
+    
+     ALthread start_abc;
+ 
     
     void hello_world ()
     {
     //do soemthing
-    efghijk.thread_id[efghijk.Index_of_threads] = 1;
+    start_abc.thread_id [start_abc.Index_of_threads] = 1;
     }
     
     int main()
     {
     
     
-    efghijk.initiate(100)
+    start_abc.initiate(100)
     
     
     while (true)//normally without the libary it will spawn infinite threads to take a lots resources on the machine
@@ -39,7 +45,7 @@ A limited threading space in c++
     
     efghijk.booker();
     
-    abc[efghijk.Index_of_threads]=std::thread(hello_world);
+    abc[start_abc.Index_of_threads]=std::thread(hello_world);
     }
     
 
